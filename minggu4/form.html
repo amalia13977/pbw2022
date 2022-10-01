@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM-HTML5</title>
+	</head>
+	<body>
+		<h2>Element Form - HTML5</h2>
+		<hr>
+		<form name="Form Mahasiswa" method="post" action="proses.php">
+			<table cellpadding="6px">
+				<tr>
+					<td>NIM</td>
+					<td><input type="number" name="NIM" required></td>
+				</tr>
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" name="Nama" required></td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td><input type="date" name="Tanggal Lahir" required></td>
+				</tr>
+				<tr>
+					<td>Program Studi</td>
+					<td>
+						<select name="Prodi" required>
+							<option value="">Pilih</option>
+							<option value="A11">S1 - Teknik Informatika</option><br>
+							<option value="A22">D4 - Teknik Informatika</option><br>
+							<option value="A12">S1 - Sistem Informasi</option><br>
+							<option value="A14">S1 - Desain Komunikasi Visual</option><br>
+							<option value="A15">S1 - Ilmu Komunikasi</option><br>
+							<option value="A17">D4 - Animasi</option><br>
+							<option value="A16">D4 - Film dan Televisi</option><br>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Bidang Minat</td>
+					<td>
+						<input type="checkbox" name="Bidang1" value="01"><label>Web Programming</label><br>
+						<input type="checkbox" name="Bidang2" value="02"><label>Mobile Programming</label><br>
+						<input type="checkbox" name="Bidang3" value="03"><label>Data Science</label><br>
+					</td>
+				</tr>
+				<tr>
+					<td>Berkas CV</td>
+					<td><input type="file" name="CV" required></td>
+				</tr>
+				<tr>
+					<td align="left">
+						<input type="hidden" name="Hidden" value="rahasia" required>
+						<input type="submit" name="Submit" value="KIRIM" required>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
