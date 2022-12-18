@@ -1,0 +1,58 @@
+[
+    {
+        "nim":"13977",
+        "nama":"Amalia Putri",
+        "alamat":"Semarang",
+        "jurusan":"Teknik Informatika",
+        "MK":[
+            {
+                "mk_kode":"101",
+                "nama_mk":"Kalkulus 1"
+            },
+            {
+                "mk_kode":"102",
+                "nama_mk":"Dasar Pemrograman"
+            },
+            {
+                "mk_kode":"103",
+                "nama_mk":"Pemrograman Berbasis Web"
+            },
+            {
+                "mk_kode":"104",
+                "nama_mk":"Organisasi dan Arsitektur Komputer"
+            },
+            {
+                "mk_kode":"105",
+                "nama_mk":"Matematika Diskrit"
+            }
+        ]
+    },
+    {
+        "nim":"14979",
+        "nama":"Annisa Himatul",
+        "alamat":"Semarang",
+        "jurusan":"Sistem Informasi",
+        "MK":[
+            {
+                "mk_kode":"301",
+                "nama_mk":"Analisa Proses Bisnis"
+            },
+            {
+                "mk_kode":"302",
+                "nama_mk":"Database Terdistribusi"
+            },
+            {
+                "mk_kode":"303",
+                "nama_mk":"Etika Profesi"
+            },
+            {
+                "mk_kode":"304",
+                "nama_mk":"Rekaya Web"
+            },
+            {
+                "mk_kode":"105",
+                "nama_mk":"MAudit Sistem Informasi"
+            }
+        ]
+    }
+]
